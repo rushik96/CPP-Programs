@@ -1,0 +1,27 @@
+// Your First C++ Program
+#include <iostream>
+using namespace std;
+
+int main (){
+    int n;
+    int a,b;
+cin>>n;
+cin>>a>>b;
+if(n==1){
+    cout<<"Addition of two numbers is "<<a+b<<endl;
+}
+else if(n==2){
+    cout<<"Subraction of two numbers is "<<a-b<<endl;
+}
+else if (n==3){
+    cout<<"Multiplication of two numbers is "<<a*b<<endl;
+
+}
+else if (n==4){
+    cout<<"division of two numbers is "<<a/b<<endl;
+}
+else if (n==5){
+    cout<<"Modulus of two numbers is "<<a%b<<endl;
+}
+
+}
