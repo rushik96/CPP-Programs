@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+class MyException
+{ int err;
+public:
+MyException()
+{
+err=3001;
+}
+MyException(int e)
+{
+err=e;
+}
+void message()
+{
+cout<<"Error "<<err<<": Throw an object";
+}
+};
